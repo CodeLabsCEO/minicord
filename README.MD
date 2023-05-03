@@ -1,3 +1,4 @@
+### THIS APP HAS NOT YET BEEN DEVELOPED
 # Minicord
 
 **Minicord** is a smaller version of Discord that uses the ElectronJS framework to create a native app that only shows the inbox section of Discord with specific features.
