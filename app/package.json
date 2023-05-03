@@ -1,0 +1,31 @@
+{
+  "name": "minicord",
+  "productName": "minicord",
+  "version": "0.0.1",
+  "description": "Minicord is a smaller version of Discord that uses the ElectronJS framework to create a native app that only shows the inbox section of Discord with specific features.Getting Started",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mohamad Allal",
+    "email": "CEO@Codelabs.solutions"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "24.1.3"
+  }
+}
